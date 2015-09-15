@@ -1,10 +1,12 @@
 # Actions
 An Arduino library for doing things in the future, without using `delay()`, and without getting into timers or interrupts.
 
+You can have multiple functions waiting to be run at the same time.
+
 It's a pretty simple library, with just a few methods!
 
 ## Installation
-From the command line, go to your **sketchbook** folder. Inside is a folder named **libraries** (if not, create it). If there is no other library named **Actions** in that folder, **cd** to the **sketchbook\libraries** folder, and run the following command:
+From the command line, go to your **sketchbook** folder. Inside is a folder named **libraries** (if not, create it). **cd** to the **sketchbook\libraries** folder, and if there is no other library named **Actions** in that folder, run the following command:
 
 `$ git clone https://github.com/phonedeveloper/Actions.git`
 
