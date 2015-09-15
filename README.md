@@ -16,9 +16,9 @@ This will install the Actions library and some examples. Restart the Arduino app
 
 `Action actions` - creates an Action queue called **actions**
 
-`actions.runLater(function, timeInMillis)` - adds a **function** to the queue, to be called **timeInMillis** milliseconds in the future.
+`actions.runLater(function, delay)` - adds a **function** to the queue, to be called **delay** milliseconds in the future.
 
-`actions.loop()` - call this repeatedly from your sketch's **loop()**. It looks at the queue and calls any **function** whose **timeInMillis** has passed since it was added. 
+`actions.loop()` - call this repeatedly from your sketch's **loop()**. It looks at the queue and calls any **function** whose **delay** has passed since it was added. 
 
 **Power users**: there's a version of **runLater** for calling instance methods of classes. See the **Power Users** section below.
 
