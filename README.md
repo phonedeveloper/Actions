@@ -8,7 +8,7 @@ It's a pretty simple library, with just a few methods!
 # NOTE!
 My [Tasks](https://github.com/phonedeveloper/Tasks) library was written to supercede and provide more functionality than **Actions**:
 
-* Support for functions that take a **boolean**, **char**, **int**, **long**, **unsigned char/int/long**, **float**, **double**, **char***, **String**, or **void*** as a parameter
+* Support for functions that take a **boolean**, **char**, **int**, **long**, **unsigned char/int/long**, **float**, **double**, **char** *, **String**, or **void** * as a parameter
 * **runLater()** is now **schedule()**
 * **loop()** is now **dispatch()**
 * No need to specify queue size on construction - schedule new tasks until you run out of memory
