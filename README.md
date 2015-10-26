@@ -5,6 +5,18 @@ You can have multiple functions waiting to be run at the same time.
 
 It's a pretty simple library, with just a few methods!
 
+# NOTE!
+My [Tasks](https://github.com/phonedeveloper/Tasks) library was written to supercede and provide more functionality than **Actions**:
+
+* Support for functions that take a **boolean**, **char**, **int**, **long**, **unsigned char/int/long**, **float**, **double**, **char***, **String**, or **void*** as a parameter
+* **runLater()** is now **schedule()**
+* **loop()** is now **dispatch()**
+* No need to specify queue size on construction - schedule new tasks until you run out of memory
+* More efficient operation - sorts entries when they are added, with the next to execute placed on top of the list
+* Supports calling a custom **loop()** function or instance method from **dispatch()**
+
+**Actions** will be kept around, because I like the simple API. **Tasks** uses bigger (or, more multitasking-like) words for the same functionality, and is intended for code that might require more than a simple delay.
+
 ## Installation
 From the command line, go to your **sketchbook** folder. Inside is a folder named **libraries** (if not, create it). **cd** to the **sketchbook\libraries** folder, and if there is no other library named **Actions** in that folder, run the following command:
 
